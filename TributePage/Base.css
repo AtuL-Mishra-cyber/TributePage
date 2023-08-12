@@ -1,0 +1,41 @@
+/* styles.css */
+body {
+    font-family: "Poppins";
+  text-align: center;
+  background-color:#1F2739;
+  margin: 0 80px;
+  color:#A7A1AE;
+}
+h1 {
+    color: #FFC72C;
+    font-size: 3.2rem;
+  }
+.white {
+  color: #FFFFFF;
+}
+.green{
+    color: green;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh; /* Adjust this value to center vertically on the viewport */
+    
+}
+
+.container img {
+    width: 280px; /* Adjust the size of the circular image */
+    height: 280px; /* Keep width and height equal for a perfect circle */
+    border-radius: 50%; /* Create a circular shape */
+    object-fit: cover; /* Maintain image aspect ratio and cover entire circle */
+}
+p{
+    line-height: 1.7;
+  font-size: 1.2rem;
+  margin: 50px 0;
+}
+.facts h2{
+    color: red;
+}
